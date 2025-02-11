@@ -1,7 +1,10 @@
+import DestinationContainer from "./components/DestinationContainer"
+
 function App() {
   return (
-    <div>
+    <div style={{backgroundColor: "#545454"}}>
       {/* Your code here */}
+      <DestinationContainer/>
     </div>
   )
 }
